@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;700&family=Prata:wght@700&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="/assets/index-Dqf6gbIy.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B6B0zxjx.css">
+</head>
+<body class="bg-background text-text-color font-body">
+
+  <!-- Sticky "Book Now" button -->
+  <a href="mailto:someone@example.com" class="fixed bottom-5 right-5 bg-primary text-background px-6 py-3 rounded-full shadow-lg z-50 hover:bg-primary-dark transition">Book Now</a>
+
+  <!-- WhatsApp chat button -->
+  <a href="https://wa.me/6281234567890" target="_blank" class="fixed bottom-20 right-5 bg-primary text-background px-6 py-3 rounded-full shadow-lg z-50 hover:bg-primary-dark transition">WhatsApp</a>
+
+
+  <!-- Header -->
+  <header class="sticky top-0 z-20 bg-background shadow-md">
+    <div
+      class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6"
+    >
+      <a href="/" class="text-2xl font-bold font-header text-accent">
+        Villa Akylina
+      </a>
+      <div class="hidden md:flex space-x-8 text-lg">
+        <a href="#gallery" class="text-text-color hover:text-primary transition">Gallery</a>
+        <a href="#rooms" class="text-text-color hover:text-primary transition">Rooms</a>
+        <a href="#amenities" class="text-text-color hover:text-primary transition">Amenities</a>
+        <a href="#about" class="text-text-color hover:text-primary transition">About</a>
+        <a href="#faq" class="text-text-color hover:text-primary transition">FAQ</a>
+      </div>
+      <div class="md:hidden">
+        <button id="burger-menu" class="text-text-color focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden text-lg md:hidden">
+      <a href="#gallery" class="block py-4 px-6">Gallery</a>
+      <a href="#rooms" class="block py-4 px-6">Rooms</a>
+      <a href="#amenities" class="block py-4 px-6">Amenities</a>
+      <a href="#about" class="block py-4 px-6">About</a>
+      <a href="#faq" class="block py-4 px-6">Frequently Asked Questions</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section
+      class="relative h-[70vh] flex items-center justify-center bg-center bg-cover"
+      style="background-image: url('assets/hero.jpg')"
+    >
+      <div class="absolute inset-0 bg-stone-900/60"></div>
+      <div class="relative z-10 text-center text-white max-w-2xl mx-auto">
+        <h1 class="font-header text-3xl md:text-5xl mb-8 tracking-wide">
+          Private spacious villa in Kuta Lombok – where sunsets meet serenity
+        </h1>
+        <a href="#booking" class="my-4 bg-primary text-background px-6 py-3 rounded-full shadow-lg hover:bg-primary-dark transition">Book Now</a>
+        <p class="mt-4">As seen on <a href="https://www.instagram.com/villa.akylina/" target="_blank" class="underline">Instagram</a> and Pinterest [coming soon]</p>
+      </div>
+    </section>
+
+    <!-- Villa Description -->
+    <section class="container mx-auto px-6 py-12">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold font-header text-accent">Feeling the day and the night</h2>
+        <p class="mt-4 max-w-3xl mx-auto">Spacious rooms, open living areas, and a vast garden with an unobstructed view of the sky, perfect for chasing white clouds by day, admiring nature’s grandest show at sunset, and gazing at the stars and moon by night.</p>
+      </div>
+      <div class="text-center mt-12">
+        <h2 class="text-3xl font-bold font-header text-accent">A place where you are the protagonist</h2>
+        <p class="mt-4 max-w-3xl mx-auto">Corners that look straight out of a décor magazine, spaces crafted with beauty and style, and a photogenic design that puts you center stage.</p>
+      </div>
+      <div class="text-center mt-12">
+        <h2 class="text-3xl font-bold font-header text-accent">A homey staycation paradise</h2>
+        <p class="mt-4 max-w-3xl mx-auto">The villa is designed for luxury and comfort with a relaxed, at-home feel. Enjoy a private pool with tanning beds, bathtubs stocked with salts and soaps, a movie theater with projector and sound system, and both indoor and outdoor dining. On request, personal wellness services, including mat pilates, yoga, and massage.</p>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container mx-auto px-6 py-20">
+      <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">Gallery</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <!-- Placeholder for gallery images -->
+        <div class="h-64 flex items-center justify-center">
+          <img src="assets/gallery/luxurious-homeness-pool.jpg" alt="Luxurious homeness: the pool" />
+        </div>
+        <div class="h-64 flex items-center justify-center">
+          <img src="assets/gallery/luxurious-homeness-models-pool.jpg" alt="Luxurious homeness: models at bar" />
+        </div>
+        <div class="h-64 flex items-center justify-center">
+          <img src="assets/gallery/luxurious-homeness-bathtubs.jpg" alt="Luxurious homeness: bathtubs at bar" />
+        </div>
+        <div class="h-64 flex items-center justify-center">
+          <img src="assets/gallery/luxurious-homeness-dinner.jpg" alt="Luxurious homeness: dinner at bar" />
+        </div>
+        <div class="h-64 flex items-center justify-center">
+          <img src="assets/gallery/spaciousness-sofa.jpg" alt="Spaciousness: sofa under sky" />
+        </div>
+        <div class="h-64 flex items-center justify-center">
+          <img src="assets/gallery/spaciousness-projector.jpg" alt="Spaciousness: projector with Netflix" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="container mx-auto px-6 py-20">
+      <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">Rooms</h2>
+      
+      <div class="mt-12">
+        <!-- tabs -->
+        <div class="mb-4">
+           <span id="bedroom1-tab" class="tab-button active-tab cursor-pointer border-t-1 border-l-1 border-primary text-accent p-4">Bedroom 1</span>
+           <span id="bedroom2-tab" class="tab-button cursor-pointer border-t-1 border-l-1 border-primary text-accent p-4">Bedroom 2</span>
+           <span id="bathroom-tab" class="tab-button cursor-pointer border-t-1 border-l-1 border-primary text-accent p-4">Bathroom</span>
+           <span id="livingroom-tab" class="tab-button cursor-pointer border-t-1 border-l-1 border-r-1 border-primary text-accent p-4">Living room</span>
+
+        </div>
+
+        <!-- room details -->
+          <div class="flex flex-col items-center justify-center">
+            <img
+              id="room-image"
+              src="assets/rooms/bedroom-1.jpg"
+              alt="bedroom"
+              class="w-full h-full object-cover"
+            />
+            <p id="room-description" class="mt-4 text-lg text-center">A spacious bedroom with a comfortable king-size bed and a private balcony.</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="container mx-auto px-6 py-20">
+      <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">Amenities</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 max-w-4xl mx-auto">
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 0 1 7.424 0M5.136 11.886c3.87-3.87 10.154-3.87 14.024 0M2.04 8.78a15.75 15.75 0 0 1 20.01 0" />
+          </svg>
+          <span>High-Speed WiFi - 75mbps</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 12 2ZM12 20.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM5.05 5.05a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06Zm12.828 12.828a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06ZM2 12a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 2 12Zm18.5 0a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75ZM6.11 17.89a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06Zm11.72-11.72a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06Z" />
+          </svg>
+          <span>Air Conditioning</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 15.375c.393 0 .75-.157 1.03-.437l.001-.001.001-.001c.28-.28.438-.637.438-1.03s-.158-.75-.438-1.03l-.001-.001-.001-.001a1.45 1.45 0 0 0-1.03-.437c-.393 0-.75.157-1.03.437l-.001.001-.001-.001a1.45 1.45 0 0 0-.438 1.03c0 .393.158.75.438 1.03l.001.001.001.001c.28.28.637.437 1.03.437Zm4.5 0c.393 0 .75-.157 1.03-.437l.001-.001.001-.001c.28-.28.438-.637.438-1.03s-.158-.75-.438-1.03l-.001-.001-.001-.001a1.45 1.45 0 0 0-1.03-.437c-.393 0-.75.157-1.03.437l-.001.001-.001-.001a1.45 1.45 0 0 0-.438 1.03c0 .393.158.75.438 1.03l.001.001.001.001c.28.28.637.437 1.03.437Z" />
+          </svg>
+          <span>Breakfast Options</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 3.375 3 3m0 0-3 3m3-3h-9.75m9.75 0v11.25c0 .621-.504 1.125-1.125 1.125H3.375c-.621 0-1.125-.504-1.125-1.125V6.375m15.75 0v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5m15.75 0h-1.5" />
+          </svg>
+          <span>Fully Equipped Kitchen</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z" />
+          </svg>
+          <span>Private Pool</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9A2.25 2.25 0 0 0 13.5 5.25h-9A2.25 2.25 0 0 0 2.25 7.5v9A2.25 2.25 0 0 0 4.5 18.75Z" />
+          </svg>
+          <span>Movie Theater (Netflix)</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-primary">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h-6.75m9.75-4.5H15V7.5a1.5 1.5 0 0 0-1.5-1.5H5.625a1.5 1.5 0 0 0-1.5 1.5v11.25" />
+          </svg>
+          <span>Parking</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <!-- <section id="booking" class="container mx-auto px-6 py-12 bg-background rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold font-header text-center text-accent">Booking</h2>
+      <div class="text-center mt-4">
+        <p class="text-lg">Direct booking = best price</p>
+        <p class="mt-2">High season dates filling fast. Only 2 weekends left in October.</p>
+      </div>
+      <div class="mt-8 text-center">
+        <div class="bg-secondary h-96 flex items-center justify-center"><span class="text-text-color">Booking Calendar Placeholder</span></div>
+        <p class="mt-4">Clear pricing per night, deposit info, cancellation policy.</p>
+      </div>
+    </section> -->
+
+    <!-- About Us Section -->
+    <section id="about" class="container mx-auto px-6 py-20">
+      <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">About Us</h2>
+      <div class="max-w-3xl mx-auto mt-8">
+        <p>My name is Yorgos and my wife is Jourena. We met in Gili Air a few years ago and since then we have built our lives here in Kuta. Together we built Elamu, the town’s Greek restaurant, cooking my mother’s recipes and we wanted to build a home of our own. We wanted a big and spacious house, and soon, the creativity we poured into it got out of control. With all its new elements, facilities, and eclectic decoration, it made sense to turn it into a place to be enjoyed by guests too.</p>
+        <h3 class="text-2xl font-bold font-header mt-8 text-accent">The Story Behind the Name</h3>
+        <p class="mt-4">We named the villa after my niece — Akylina — as a personal way to draw her into my world and encourage her to explore her own. My wife and I wanted her and the family to visit us in Indonesia, hoping to make her curious about countries other than her own. This villa is part of that dream: a place where horizons stretch wide and imaginations soar.</p>
+        <h3 class="text-2xl font-bold font-header mt-8 text-accent">The Character of the Villa</h3>
+        <p class="mt-4">Villa Akylina is defined by sunsets and open skies. We retained the openness of the garden and we built in seamless indoor-outdoor flow. We oriented the living room towards the West so that every evening, the villa becomes a front-row seat to nature’s grandest show.</p>
+        <p class="mt-4">We offer a luxury home experience that is both intimate and indulgent. Whether it’s enjoying hanging out in the private pool, gathering for a movie night in the home theater, or enjoying dinner under the stars, we hope that you leave this place with unforgettable memories.</p>
+      </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="bg-secondary py-12">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-2xl font-bold font-header text-accent">Trusted by Guests</h2>
+        <div class="flex justify-center space-x-8 mt-8">
+          <!-- Placeholders for trust badges -->
+          <div class="bg-background p-4 rounded-lg"><span class="text-text-color">Airbnb Superhost</span></div>
+          <div class="bg-background p-4 rounded-lg"><span class="text-text-color">Booking.com Score</span></div>
+          <div class="bg-background p-4 rounded-lg"><span class="text-text-color">Google Reviews</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="container mx-auto px-6 py-12">
+      <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">What Our Guests Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <!-- Placeholder for testimonials -->
+        <div class="bg-background p-6 rounded-lg shadow-md">
+          <div class="bg-secondary h-32 mt-4 flex items-center justify-center"><span class="text-text-color">Guest photo</span></div>
+          <p class="mt-4">"Curated guest feedback with photos."</p>
+          <p class="mt-2 font-bold">- Guest Name</p>
+        </div>
+        <div class="bg-background p-6 rounded-lg shadow-md">
+          <div class="bg-secondary h-32 mt-4 flex items-center justify-center"><span class="text-text-color">Guest photo</span></div>
+          <p class="mt-4">"Curated guest feedback with photos."</p>
+          <p class="mt-2 font-bold">- Guest Name</p>
+        </div>
+        <div class="bg-background p-6 rounded-lg shadow-md">
+          <div class="bg-secondary h-32 mt-4 flex items-center justify-center"><span class="text-text-color">Guest photo</span></div>
+          <p class="mt-4">"Curated guest feedback with photos."</p>
+          <p class="mt-2 font-bold">- Guest Name</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="container mx-auto px-6 py-20">
+      <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">Frequently Asked Questions</h2>
+      <div class="max-w-3xl mx-auto mt-8">
+        <div class="bg-background p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-bold font-header text-accent">Airport transfer?</h3>
+          <p class="mt-2">Yes, we can arrange airport transfers. Please contact us for more details.</p>
+        </div>
+        <div class="bg-background p-6 rounded-lg shadow-md mt-4">
+          <h3 class="text-2xl font-bold font-header text-accent">Earplugs for early mosque call?</h3>
+          <p class="mt-2">We provide earplugs for light sleepers to ensure a comfortable stay.</p>
+        </div>
+        <div class="bg-background p-6 rounded-lg shadow-md mt-4">
+          <h3 class="text-2xl font-bold font-header text-accent">Early/late check-in?</h3>
+          <p class="mt-2">Early check-in and late check-out are subject to availability. Please contact us to make arrangements.</p>
+        </div>
+        <div class="bg-background p-6 rounded-lg shadow-md mt-4">
+          <h3 class="text-2xl font-bold font-header text-accent">Family/kids friendly?</h3>
+          <p class="mt-2">Yes, our villa is family and kid-friendly. We have a private pool and a movie theater for entertainment.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-accent text-background py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 Villa Akylina. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
