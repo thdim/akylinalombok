@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script type="module" crossorigin src="/assets/index-BwUq0-3Y.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-B5aYGrV2.css">
+  <script type="module" crossorigin src="/assets/index-BM0Xpgq4.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B3Z0Si6e.css">
 </head>
 <body class="bg-background text-text-color font-body">
 
@@ -67,7 +67,14 @@
           Private spacious villa in Kuta Lombok – where sunsets meet serenity
         </h1>
         <a href="book.html" class="book-now-link my-4 bg-primary text-background px-6 py-3 rounded-full shadow-lg hover:bg-primary-dark transition">Book Now</a>
-        <p class="mt-4">As seen on <a href="https://www.instagram.com/villa.akylina/" target="_blank" class="underline">Instagram</a></p>
+
+        <p class="mt-6 flex items-center justify-center gap-2"><span>As seen on</span> <a href="https://www.instagram.com/villa.akylina/" target="_blank" class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram inline-block align-middle h-5 w-5 mr-1">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a></p>
       </div>
     </section>
 
@@ -82,7 +89,7 @@
         <div class="md:flex md:items-center md:space-x-8">
           <img src="assets/staycation.jpg" alt="Luxurious homeness: the pool" class="md:w-6/10 my-4" />
           <div class=" md:w-4/10 mx-auto p-4 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold font-header text-accent">A homey staycation paradise</h2>
+            <h2 class="text-3xl md:text-4xl font-bold font-header text-accent">A homey staycation</h2>
             <p class="mt-6 text-lg">Corners that look straight out of a décor magazine, spaces crafted with beauty and style, and a photogenic design that puts you center stage.</p>
           </div>
           
@@ -173,10 +180,10 @@
       <div class="mt-12">
         <!-- tabs -->
         <div class="mb-4 flex justify-center items-center flex-wrap gap-4">
-          <a id="bedroom1-tab" class="tab-button active-tab cursor-pointer px-4 py-2 rounded-full bg-primary text-background hover:bg-secondary transition">Bedroom 1</a>
-          <a id="bedroom2-tab" class="tab-button cursor-pointer px-4 py-2 rounded-full bg-secondary text-text-color hover:bg-secondary transition">Bedroom 2</a>
-          <a id="bathroom-tab" class="tab-button cursor-pointer px-4 py-2 rounded-full bg-secondary text-text-color hover:bg-secondary transition">Bathroom</a>
-          <a id="livingroom-tab" class="tab-button cursor-pointer px-4 py-2 rounded-full bg-secondary text-text-color hover:bg-secondary transition">Living room</a>
+          <a id="bedroom1-tab" class="tab-button active-tab cursor-pointer text-lg font-bold text-primary underline hover:text-primary transition">Bedroom 1</a>
+          <a id="bedroom2-tab" class="tab-button cursor-pointer text-lg text-text-color hover:text-primary hover:underline transition">Bedroom 2</a>
+          <a id="bathroom-tab" class="tab-button cursor-pointer text-lg text-text-color hover:text-primary hover:underline transition">Bathroom</a>
+          <a id="livingroom-tab" class="tab-button cursor-pointer text-lg text-text-color hover:text-primary hover:underline transition">Living room</a>
         </div>
 
         <!-- room details -->
@@ -195,26 +202,35 @@
     <!-- Gallery Section -->
     <section id="gallery" class="container mx-auto px-6 py-20">
       <h2 class="text-3xl text-center font-bold font-header pb-1 border-b-1 border-primary text-accent">Gallery</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-        <!-- Placeholder for gallery images -->
-        <div class="h-64 flex items-center justify-center">
-          <img src="assets/gallery/luxurious-homeness-pool.jpg" alt="Luxurious homeness: the pool" />
+      <div id="gallery-container" class="relative mt-8 overflow-hidden">
+        <div id="gallery-slider" class="flex transition-transform duration-500 ease-in-out">
+          <!-- Gallery images will be slides -->
+          <div class="gallery-slide flex-shrink-0 w-full">
+            <img src="assets/gallery/luxurious-homeness-pool.jpg" alt="Luxurious homeness: the pool" class="w-full h-auto" />
+          </div>
+          <div class="gallery-slide flex-shrink-0 w-full">
+            <img src="assets/gallery/luxurious-homeness-models-pool.jpg" alt="Luxurious homeness: models at bar" class="w-full h-auto" />
+          </div>
+          <div class="gallery-slide flex-shrink-0 w-full">
+            <img src="assets/gallery/luxurious-homeness-bathtubs.jpg" alt="Luxurious homeness: bathtubs at bar" class="w-full h-auto" />
+          </div>
+          <div class="gallery-slide flex-shrink-0 w-full">
+            <img src="assets/gallery/luxurious-homeness-dinner.jpg" alt="Luxurious homeness: dinner at bar" class="w-full h-auto" />
+          </div>
+          <div class="gallery-slide flex-shrink-0 w-full">
+            <img src="assets/gallery/spaciousness-sofa.jpg" alt="Spaciousness: sofa under sky" class="w-full h-auto" />
+          </div>
+          <div class="gallery-slide flex-shrink-0 w-full">
+            <img src="assets/gallery/spaciousness-projector.jpg" alt="Spaciousness: projector with Netflix" class="w-full h-auto" />
+          </div>
         </div>
-        <div class="h-64 flex items-center justify-center">
-          <img src="assets/gallery/luxurious-homeness-models-pool.jpg" alt="Luxurious homeness: models at bar" />
-        </div>
-        <div class="h-64 flex items-center justify-center">
-          <img src="assets/gallery/luxurious-homeness-bathtubs.jpg" alt="Luxurious homeness: bathtubs at bar" />
-        </div>
-        <div class="h-64 flex items-center justify-center">
-          <img src="assets/gallery/luxurious-homeness-dinner.jpg" alt="Luxurious homeness: dinner at bar" />
-        </div>
-        <div class="h-64 flex items-center justify-center">
-          <img src="assets/gallery/spaciousness-sofa.jpg" alt="Spaciousness: sofa under sky" />
-        </div>
-        <div class="h-64 flex items-center justify-center">
-          <img src="assets/gallery/spaciousness-projector.jpg" alt="Spaciousness: projector with Netflix" />
-        </div>
+        <!-- Arrow buttons -->
+        <button id="prev-slide" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full">
+          &#10094;
+        </button>
+        <button id="next-slide" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full">
+          &#10095;
+        </button>
       </div>
     </section>
 
